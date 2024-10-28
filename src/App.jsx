@@ -1,11 +1,11 @@
-import { useState } from "react";
-import ColorGenerator from "./Compoent/colorGenerator";
+import Colorrating from "./colorrating";
+
 
 function App() {
   return (
     <>
      <div className="h-screen w-screen bg-slate-300 flex justify-center items-center">
-       <ColorGenerator/>
+     <Colorrating/>
      </div>
       
     </>
